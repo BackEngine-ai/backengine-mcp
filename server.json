@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "com.backengine/backengine-mcp",
+  "description": "BackEngine ingests all your customer and prospect communications — Slack threads, emails, call transcripts, support tickets — and surfaces the context your revenue team needs. Query customer signals, prep for meetings, spot at-risk accounts, and draft grounded outreach from Claude or any MCP client.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.backengine.ai/sse"
+    }
+  ]
+}
