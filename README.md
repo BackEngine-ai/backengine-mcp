@@ -22,7 +22,7 @@ outreach from real conversation history — without leaving the chat.
 
 ## Connecting
 
-The server is remote and speaks streamable HTTP at **`https://mcp.backengine.ai/mcp`**. You'll
+The server is remote and speaks streamable HTTP at **`https://backengine.ai/mcp`**. You'll
 need a BackEngine account; the server authenticates your session on connect.
 
 ### Clients with native remote MCP support
@@ -32,7 +32,7 @@ need a BackEngine account; the server authenticates your session on connect.
   "mcpServers": {
     "backengine": {
       "type": "streamable-http",
-      "url": "https://mcp.backengine.ai/mcp"
+      "url": "https://backengine.ai/mcp"
     }
   }
 }
@@ -48,7 +48,7 @@ For clients that don't yet support remote servers directly, proxy through
   "mcpServers": {
     "backengine": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "https://mcp.backengine.ai/mcp"]
+      "args": ["-y", "mcp-remote", "https://backengine.ai/mcp"]
     }
   }
 }
@@ -77,5 +77,5 @@ based on your permissions and which integrations your workspace has connected.
 ## Links
 
 - Website: https://backengine.ai
-- MCP endpoint: https://mcp.backengine.ai/mcp
+- MCP endpoint: https://backengine.ai/mcp
 - Model Context Protocol: https://modelcontextprotocol.io
