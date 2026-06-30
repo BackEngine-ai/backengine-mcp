@@ -2,7 +2,7 @@
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
     "name": "ai.backengine/backengine-mcp",
     "description": "Surface customer & prospect context from Slack, email, transcripts and tickets in any MCP client.",
-    "version": "1.0.0",
+    "version": "8.0.3",
     "repository": {
       "url": "https://github.com/BackEngine-ai/backengine-mcp",
       "source": "github"
