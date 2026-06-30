@@ -11,7 +11,7 @@
     "remotes": [
       {
         "type": "streamable-http",
-        "url": "https://mcp.backengine.ai/mcp"
+        "url": "https://backengine.ai/mcp"
       }
     ]
   }
